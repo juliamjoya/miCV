@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: url("/cv/img/imgHeader.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 300px;
+    border: 5px solid red;
+}
+
+.tituloHD1 {
+    color: #ffffff;
+    font-size: 60px;
+    margin-left: 680px;
+    margin-top: 80px;
+}
+
+.tituloHD2 {
+    color: #ffffff;
+    font-size: 30px;
+    margin-left: 750px;
+}
+
+.image-profile {
+    border-radius: 140px;
+    width: 278px;
+    height: 270px;
+    border: #ffffff 10px solid;
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 70px;
+    /* padding: 10px; */
+}
+
+nav {
+    width: 35%;
+    height: 885px;
+    background-color: #f0ebeb;
+    border: 5px solid yellow;
+}
+
+.tituloContacto {
+    color: #054695;
+    margin-left: 135px;
+    margin-top: 165px;
+    font-size: 35px;
+}
+
+.listadoContacto {
+    margin-bottom: 20px;
+}
+
+.itemContacto{
+    margin-left: 130px;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.tituloHabilidades {
+    color: #054695;
+    margin-left: 110px;
+    margin-top: 60px;
+    font-size: 35px;
+}
+
+.skills{
+    margin-left: 45px;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.tituloRedesSociales {
+    color: #054695;
+    margin-left: 87px;
+    margin-top: 60px;
+    font-size: 35px;
+}
+
+.itemRedesSocialesFB {
+    list-style: none;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 45px;
+}
+.itemRedesSocialesYT {
+    list-style: none;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 143px;
+}
+
+.itemRedesSocialesIT {
+    list-style: none;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 225px;
+}
+
+.itemRedesSocialesTT {
+    list-style: none;
+    position: absolute;
+    margin-top: 9px;
+    margin-left: 320px;
+}
+
+.icono-fb {
+    width: 12%;
+}
+
+.icono-yt {
+    width: 10%;
+}
+
+.icono-it {
+    width: 12%;
+}
+
+.icono-tt {
+    width: 12%;
+}
+
+main {
+    border: 5px solid green;
+}
+
+.sectionAboutMe {
+    border: 5px solid blueviolet;
+    position: absolute;
+    width: 65%;
+    height: 205px;
+    margin-top: -885px;
+    margin-left: 435px;
+    padding: 30px;
+}
+
+.sectionAboutMe h3 {
+    color: #ffffff;
+    background-color: #054695;
+    font-size: 25px;
+    border-radius: 0%;
+    padding: 7px 32px 3px 34px;
+    width: 30%;
+    height: 33%;
+}
+
+.sectionAboutMe p {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.sectionOtherInfo {
+    border: 5px solid blue;
+    position: absolute;
+    width: 65%;
+    height: 680px;
+    margin-top: -680px;
+    margin-left: 435px;
+    padding: 30px;
+    overflow: auto;
+}
+
+footer {
+    background-image: url("/cv/img/imgFooter.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 300px;
+    border: 5px solid black;
+}
