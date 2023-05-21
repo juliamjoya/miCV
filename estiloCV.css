@@ -6,7 +6,7 @@
 }
 
 header {
-    background-image: url("/cv/img/imgHeader.png");
+    background-image: url("/curriculumJulianJoya/img/imgHeader.png");
     background-repeat: no-repeat;
     background-size: 100%;
     height: 300px;
@@ -37,6 +37,10 @@ header {
     /* padding: 10px; */
 }
 
+.name {
+    background-size: cover;
+}
+
 nav {
     width: 35%;
     height: 885px;
@@ -55,11 +59,26 @@ nav {
     margin-bottom: 20px;
 }
 
-.itemContacto{
+.itemContacto {
+    list-style: none;
     margin-left: 130px;
     margin-top: 10px;
     font-size: 17px;
 }
+
+#iconoCorreo {
+    /* color: rgb(100, 148, 237); */
+    background-color: rgb(0, 195, 255);
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+
+#iconoTelefono {}
+
+#iconoLocalizacion {}
+
+#iconoLinkedIn {}
 
 .tituloHabilidades {
     color: #054695;
@@ -68,7 +87,7 @@ nav {
     font-size: 35px;
 }
 
-.skills{
+.skills {
     margin-left: 45px;
     margin-right: 20px;
     margin-top: 10px;
@@ -88,6 +107,7 @@ nav {
     margin-top: 10px;
     margin-left: 45px;
 }
+
 .itemRedesSocialesYT {
     list-style: none;
     position: absolute;
@@ -166,7 +186,7 @@ main {
 }
 
 footer {
-    background-image: url("/cv/img/imgFooter.png");
+    background-image: url("/curriculumJulianJoya/img/imgFooter.png");
     background-repeat: no-repeat;
     background-size: 100%;
     height: 300px;
