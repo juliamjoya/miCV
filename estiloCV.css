@@ -1,23 +1,23 @@
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 header {
-    background-image: url("/curriculumJulianJoya/img/imgHeader.png");
+    background-image: url("/miCV/img/imgHeader.png");
     background-repeat: no-repeat;
     background-size: 100%;
     height: 300px;
-    border: 5px solid red;
+    /* border: 5px solid red; */
 }
 
 .tituloHD1 {
     color: #ffffff;
     font-size: 60px;
     margin-left: 680px;
-    margin-top: 80px;
+    padding-top: 80px;
 }
 
 .tituloHD2 {
@@ -45,13 +45,14 @@ nav {
     width: 35%;
     height: 885px;
     background-color: #f0ebeb;
-    border: 5px solid yellow;
+    /* border: 5px solid yellow; */
 }
 
 .tituloContacto {
     color: #054695;
     margin-left: 135px;
-    margin-top: 165px;
+    /* margin-top: 165px; */
+    padding-top: 160px;
     font-size: 35px;
 }
 
@@ -145,12 +146,8 @@ nav {
     width: 12%;
 }
 
-main {
-    border: 5px solid green;
-}
-
 .sectionAboutMe {
-    border: 5px solid blueviolet;
+    /* border: 5px solid blueviolet; */
     position: absolute;
     width: 65%;
     height: 205px;
@@ -163,7 +160,8 @@ main {
     color: #ffffff;
     background-color: #054695;
     font-size: 25px;
-    border-radius: 0%;
+    border-radius: 24px;
+    box-shadow: 8px 0px #00B5EA;
     padding: 7px 32px 3px 34px;
     width: 30%;
     height: 33%;
@@ -175,7 +173,7 @@ main {
 }
 
 .sectionOtherInfo {
-    border: 5px solid blue;
+    /* border: 5px solid blue; */
     position: absolute;
     width: 65%;
     height: 680px;
@@ -185,10 +183,45 @@ main {
     overflow: auto;
 }
 
+.sectionOtherInfo h3 {
+    color: #ffffff;
+    background-color: #054695;
+    font-size: 25px;
+    border-radius: 24px;
+    box-shadow: 8px 0px #00B5EA;
+    padding: 7px 32px 3px 34px;
+    width: 45%;
+}
+
+.sectionOtherInfo p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.sectionJobExperience {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.colDate {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.colInfo {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: justify;
+}
+
 footer {
-    background-image: url("/curriculumJulianJoya/img/imgFooter.png");
+    background-image: url("/miCV/img/imgFooter.png");
     background-repeat: no-repeat;
     background-size: 100%;
     height: 300px;
-    border: 5px solid black;
+    /* border: 5px solid black; */
 }
